@@ -79,18 +79,15 @@ function profileImage(image) {
     var vibrant = new Vibrant(img);
     var swatches = vibrant.swatches();
     var distance = deltaE(SarahahGreen, rgb2lab(swatches['Vibrant'].getRgb()));
+    
     //Value determined based on distribution of the values of the Sample Set - 95% Confidence Levels
     if (distance < 6) {
       hidePost(image);
-      console.log("HIDE", distance, image.src);
-    } else {
-      console.log("SHOWN", distance, image.src);
     }
   });
 }
 
 function colorDistance(rgb) {
-  console.log(rgb2lab(rgb));
   var i = 0;
   var d = 0;
   for (i = 0; i < 3; i++) {
