@@ -8,31 +8,30 @@
     "48": "icon48.png",
     "128": "icon128.png"
   },
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
   "content_scripts": [
     {
       "js": [
         "lib/jquery.js",
-        "lib/vibrant.js",
-        "lib/color-thief.js",
         "lib/mutation.js",
-        "lib/resemble.js",
+        "lib/vibrant.js",
         "script.js"
       ],
       "matches": [
-        "https://www.facebook.com/*"
+        "*://*.facebook.com/*"
       ],
       "run_at": "document_start"
     }
   ],
   "browser_action": {
     "default_icon": "icon.png",
-    "default_popup": "info.html",
+    "default_popup": "popup.html",
     "default_title": "No Sarahah"
   },
   "permissions": [
-    "activeTab",
-    "http://*/",
-    "https://*/"
-    
+    "activeTab"
   ]
 }
