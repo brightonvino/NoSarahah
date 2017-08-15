@@ -7,6 +7,9 @@ A weekend hack to block Sarahah posts on Facebook Feeds
 3) Drag and Drop the CRX file into the window
 4) Install the extension
 
+## Details of the Extension
+Interested in reading about the how, why and what the extension does ? [Read Here] (http://brightonvino.com/portfolio/no-sarahah)
+
 ## Disclaimer
 This extension was developed in over a weekend with no intention of making it a very optimal one. The user assumes all risks associated with the use of this extension. [Read more here](http://brightonvino.com/disclaimer/no-sarahah)
 
