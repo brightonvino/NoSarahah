@@ -8,7 +8,7 @@ A weekend hack to block Sarahah posts on Facebook Feeds
 4) Install the extension
 
 ## Disclaimer
-This extension was developed in over a weekend with no intention of making it a very optimal one. The user assumes all risks associated with the use of this extension. [Read more here] (http://brightonvino.com/disclaimer/no-sarahah)
+This extension was developed in over a weekend with no intention of making it a very optimal one. The user assumes all risks associated with the use of this extension. [Read more here](http://brightonvino.com/disclaimer/no-sarahah)
 
 ## License
 
