@@ -2,6 +2,9 @@ var cImages = 0;
 var cLinks = 0;
 var SarahahGreen = [68, -41, -8];
 
+//Value determined based on distribution of the values of the Sample Set - 95% Confidence Levels
+var THRESHOLD = 8;
+
 var feedRoot = document.querySelectorAll('[role="feed"]')[0];
 
 chrome.runtime.sendMessage({
@@ -14,7 +17,7 @@ chrome.runtime.onMessage.addListener(function (msg, sender, response) {
   if ((msg.from === 'popup') && (msg.subject === 'DOMInfo')) {
     var domInfo = {
       images: cImages,
-      links: cLinks / 3
+      links: Math.floor(cLinks / 3)
     };
     response(domInfo);
   }
@@ -80,8 +83,7 @@ function profileImage(image) {
     var swatches = vibrant.swatches();
     var distance = deltaE(SarahahGreen, rgb2lab(swatches['Vibrant'].getRgb()));
     
-    //Value determined based on distribution of the values of the Sample Set - 95% Confidence Levels
-    if (distance < 6) {
+    if (distance < THRESHOLD) {
       hidePost(image);
     }
   });
