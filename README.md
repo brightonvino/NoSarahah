@@ -2,9 +2,10 @@
 A weekend hack to block Sarahah posts on Facebook Feeds
 
 ## Installation
-1) Download and Extract the bundle from the [Releases](https://github.com/brightonvino/nosarahah/releases).
-2) Goto the Manage Extensions(chrome://extensions) page in Chrome
+1) Download and extract the bundle from the latest [Release](https://github.com/brightonvino/nosarahah/releases).
+2) Open Chrome, go to Extensions(chrome://extensions) page
 3) Drag and Drop the CRX file into the window
+4) Install the extension
 
 ## Disclaimer
 This extension was developed in over a weekend with no intention of making it a very optimal one. The user assumes all risks associated with the use of this extension. [Read more here] (http://brightonvino.com/disclaimer/no-sarahah)
