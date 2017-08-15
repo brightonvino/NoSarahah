@@ -13,7 +13,7 @@ chrome.runtime.onMessage.addListener(function (msg, sender, response) {
   if ((msg.from === 'popup') && (msg.subject === 'DOMInfo')) {
     var domInfo = {
       images: cImages,
-      links: cLinks
+      links: cLinks/3
     };
     response(domInfo);
   }
