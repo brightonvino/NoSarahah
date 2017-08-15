@@ -16,6 +16,6 @@ Found A Bug ? [Open an issue](https://github.com/brightonvino/NoSarahah/issues/n
 ## License
 [MIT](LICENSE) © Brighton Vino Jegarajan
 
-> [brightonvino.com](https://www.brightonvino.com) &nbsp;&middot;&nbsp;
-> LinkedIn [@brightonvino](https://www.linkedin.com/in/brightonvino/)
-> Twitter [@amit_merchant](https://twitter.com/brightonvino)
+> Personal Page [brightonvino.com](https://www.brightonvino.com) &nbsp;&middot;&nbsp;
+> LinkedIn [in/brightonvino](https://www.linkedin.com/in/brightonvino/) &nbsp;&middot;&nbsp;
+> Twitter [@brightonvino](https://twitter.com/brightonvino)
