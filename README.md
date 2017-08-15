@@ -7,11 +7,11 @@ A weekend hack to block Sarahah posts on Facebook Feeds
 3) Drag and Drop the CRX file into the window
 
 ## Disclaimer
-This extension was developed in over a weekend with no intention of making it a a very optimal one. Though uncommon, your Facebook tab may get slow occasionally while using this extension. The user assumes all risks associated with the use of this extension.
+This extension was developed in over a weekend with no intention of making it a very optimal one. The user assumes all risks associated with the use of this extension. [Read more here] (http://brightonvino.com/disclaimer/no-sarahah)
 
 ## License
 
-    The MIT License (MIT) Copyright © 2017 Muthuramakrishnan
+    The MIT License (MIT) Copyright © 2017 Brighton Vino Jegarajan
 
     Permission is hereby granted, free of charge, to any person obtaining a copy of
     this software and associated documentation files (the “Software”), to deal in
